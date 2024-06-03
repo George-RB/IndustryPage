@@ -1,0 +1,18 @@
+@import "__variables";
+
+@mixin buttonGrey {
+    width: auto;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    background: $textGray;
+
+    &:hover {
+        background: $buttonBG;
+        color: $textWhite;
+        transition: .3s ease;
+    }
+
+}
