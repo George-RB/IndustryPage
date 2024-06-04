@@ -1,3 +1,70 @@
-button {
+.main-top {
+    background: $textGray;
+
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 52px;
+        padding: 0 40px;
+
+
+        .col-wrapper {
+            display: flex;
+        }
+
+        .col {
+            display: flex;
+            align-items: center;
+            color: $textGrey;
+
+            p {
+                margin-left: 8px;
+                color: $textBlack;
+                line-height: 24px;
+                font-size: 24px;
+            }
+
+            .mail {
+                margin-right: 32px;
+            }
+
+            .phone {
+                margin-right: 80px;
+
+            }
+
+            a {
+                text-decoration: none;
+                color: $textGrey;
+                @include linkGrey;
+            }
+
+            a:first-child {
+                margin-right: 32px;
+            }
+        }
+    }
+}
+
+.main-bottom {
+    margin-top: 28px;
+
+}
+
+button,
+i {
     @include buttonGrey;
+    margin-right: 8px;
+}
+
+.golos-text-medium:nth-child(4) {
+    margin-right: 145px;
+}
+
+button .golos-text-medium,
+.active {
+    background: $buttonBG;
+    color: $textWhite;
 }

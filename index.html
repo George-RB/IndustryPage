@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Okoprom</title>
+    <!-- Logo -->
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <!-- CSS -->
     <link rel="stylesheet" href="./css/main.css">
@@ -13,33 +14,63 @@
     <!-- JS -->
     <script src="./js/index.js"></script>
     <!-- JS -->
+    <!-- Awesome Font -->
+    <script src="https://kit.fontawesome.com/82bff0b566.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <main class="main-top">
-            <div class="row">
-                <div class="col">
-                    <img src="./img/logo.png" alt="Okoprom">
-                    <p>Okoprom</p>
-                </div>
-                <div class="col">
-                    <div class="mail">okoprom@gmail.com</div>
-                    <div class="phone">+7 (800) 707-31-01</div>
-                </div>
-                <div class="col">
-                    <a href="#">Доставка и оплата</a>
-                    <a href="#">Гарантия</a>
-                </div>
-            </div>
-        </main>
-        <main class="main-bottom">
-            <button class="golos-text-medium">Каталог</button>
-            <button class="golos-text-medium">Наше производство</button>
-            <button class="golos-text-medium">О компании</button>
-            <button class="golos-text-medium">Контакты</button>
-        </main>
-    </header>
+    <div class="container">
+        <div class="wrapper">
+            <header>
+                <main class="main-top">
+                    <div class="row">
+                        <div class="col">
+                            <img src="./img/logo.png" alt="Okoprom">
+                            <p class="golos-text-demibold">Okoprom</p>
+                        </div>
+                        <div class="col-wrapper">
+                            <div class="col">
+                                <div class="mail">okoprom@gmail.com</div>
+                                <div class="phone">+7 (800) 707-31-01</div>
+                            </div>
+                            <div class="col">
+                                <a href="#">Доставка и оплата</a>
+                                <a href="#">Гарантия</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </main>
+                <main class="main-bottom">
+                    <button class="golos-text-medium">Каталог</button>
+                    <button class="golos-text-medium">Наше производство</button>
+                    <button class="golos-text-medium">О компании</button>
+                    <button class="golos-text-medium">Контакты</button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <button class="golos-text-medium active">Запросить консультацию</button>
+                </main>
+            </header>
+
+            <section>
+                <!-- <div class="slider"> -->
+                    <div class="slider">
+                        <div class="slide">
+                            <img src="./img/pages/generator.png" alt="Описание изображения 1">
+                            <h2>Заголовок </h2>
+                            <p>Описание 1</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./img/pages/radiator.png" alt="Описание изображения 2">
+                            <h2>Заголовок 2</h2>
+                            <p>Описание 2</p>
+                        </div>
+                        <!-- Добавьте другие карточки товаров -->
+                    </div>
+                <!-- </div> -->
+            </section>
+        </div>
+    </div>
 </body>
 
 </html>

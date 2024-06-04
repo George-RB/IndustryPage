@@ -1,0 +1,20 @@
+@import "__variables";
+@import "__mixin";
+
+.slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    // display: none;
+    /* Скрыть все карточки по умолчанию */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
