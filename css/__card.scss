@@ -20,6 +20,22 @@
 
     h1 {
         font-size: 3.5rem;
+        margin-bottom: 32px;
+    }
+
+    .frame {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid $line;
+        color: $textGrey;
+    }
+
+    .price {
+        margin: 88px 0 32px;
+        border-bottom: 1px solid $line;
+        padding-bottom: 12px;
+        font-size: 1.8rem;
     }
 }
 
@@ -28,8 +44,9 @@
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 50px;
-    // width: 576px;
-    // height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -37,4 +54,19 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+
+    .down-block-arrows:nth-child(2) {
+        margin-right: 55px;
+    }
+
+    #leftArrow {
+        margin-right: 8px;
+
+    }
+
+    button {
+        &:hover {
+            background: $line;
+        }
+    }
 }

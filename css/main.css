@@ -359,6 +359,20 @@ button .golos-text-medium,
 }
 .info h1 {
   font-size: 3.5rem;
+  margin-bottom: 32px;
+}
+.info .frame {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #36383C;
+  color: #757575;
+}
+.info .price {
+  margin: 88px 0 32px;
+  border-bottom: 1px solid #36383C;
+  padding-bottom: 12px;
+  font-size: 1.8rem;
 }
 
 .wrapper-image {
@@ -366,12 +380,24 @@ button .golos-text-medium,
   padding: 20px;
   border-radius: 20px;
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .down-block {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.down-block .down-block-arrows:nth-child(2) {
+  margin-right: 55px;
+}
+.down-block #leftArrow {
+  margin-right: 8px;
+}
+.down-block button:hover {
+  background: #36383C;
 }
 
 body {
