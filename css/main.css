@@ -259,7 +259,7 @@ table {
   margin-left: 8px;
   color: #161616;
   line-height: 24px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .main-top .row .col .mail {
   margin-right: 32px;
@@ -284,7 +284,10 @@ table {
 }
 
 .main-bottom {
-  margin-top: 28px;
+  margin: 28px 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 button,
@@ -293,13 +296,12 @@ i {
   padding: 12px 20px;
   border-radius: 5px;
   border: none;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
   background: #F4F5F8;
   cursor: pointer;
   font-family: "Golos Text", sans-serif;
   font-weight: 500;
-  margin-right: 8px;
 }
 button:hover,
 i:hover {
@@ -308,8 +310,12 @@ i:hover {
   transition: 0.3s ease;
 }
 
+.golos-text-medium, i {
+  margin-right: 8px;
+}
+
 .golos-text-medium:nth-child(4) {
-  margin-right: 145px;
+  margin-right: 110px;
 }
 
 button .golos-text-medium,
@@ -336,7 +342,7 @@ button .golos-text-medium,
 }
 
 .card {
-  margin-top: 32px;
+  margin: 32px 40px 0;
   border-radius: 16px;
   background: #202226;
   color: #ffffff;
@@ -345,15 +351,34 @@ button .golos-text-medium,
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.card .wrapper h1 {
-  font-size: 40px;
+
+.info {
+  width: 552px;
+}
+.info h1 {
+  font-size: 3.5rem;
+}
+
+.wrapper-image {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.down-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 body {
   font-family: "Golos Text", sans-serif;
   font-weight: 400;
   cursor: default;
+  font-size: 16px;
 }
 
 .container {

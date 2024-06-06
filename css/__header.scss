@@ -23,7 +23,7 @@
                 margin-left: 8px;
                 color: $textBlack;
                 line-height: 24px;
-                font-size: 24px;
+                font-size: 1.5rem;
             }
 
             .mail {
@@ -49,18 +49,25 @@
 }
 
 .main-bottom {
-    margin-top: 28px;
+    margin: 28px 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 button,
 i {
     @include buttonGrey;
+    // margin-right: 8px;
+}
+
+.golos-text-medium, i {
     margin-right: 8px;
 }
 
 .golos-text-medium:nth-child(4) {
-    margin-right: 145px;
+    margin-right: 110px;
 }
 
 button .golos-text-medium,

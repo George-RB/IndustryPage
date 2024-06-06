@@ -1,7 +1,7 @@
 @import "__variables";
 
 .card {
-    margin-top: 32px;
+    margin: 32px 40px 0;
     border-radius: 16px;
     background: $buttonBG;
     color: $textWhite;
@@ -10,9 +10,31 @@
         padding: 40px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
 
-        h1 {
-            font-size: 40px;
-        }
     }
+}
+
+.info {
+    width: 552px;
+
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+.wrapper-image {
+    background: $textWhite;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    // width: 576px;
+    // height: 420px;
+}
+
+
+.down-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
