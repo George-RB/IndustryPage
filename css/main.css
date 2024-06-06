@@ -297,6 +297,8 @@ i {
   text-align: center;
   background: #F4F5F8;
   cursor: pointer;
+  font-family: "Golos Text", sans-serif;
+  font-weight: 500;
   margin-right: 8px;
 }
 button:hover,
@@ -331,6 +333,21 @@ button .golos-text-medium,
 .slide img {
   width: 100%;
   height: auto;
+}
+
+.card {
+  margin-top: 32px;
+  border-radius: 16px;
+  background: #202226;
+  color: #ffffff;
+}
+.card .wrapper {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card .wrapper h1 {
+  font-size: 40px;
 }
 
 body {
