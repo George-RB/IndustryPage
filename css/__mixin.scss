@@ -1,4 +1,5 @@
 @import "__variables";
+@import "__fonts";
 
 @mixin buttonGrey {
     width: auto;
@@ -30,6 +31,22 @@
         transition: .3s ease;
         transform: translateY(-3px);
     }
+}
 
-
+@mixin fontH1 {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+@mixin fontH3 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1%;
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }

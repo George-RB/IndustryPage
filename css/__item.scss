@@ -1,0 +1,57 @@
+@import "__variables";
+@import "__mixin";
+
+section {
+    main {
+        margin: 0 40px;
+    }
+}
+
+.title {
+    margin-top: 120px;
+
+    h1 {
+        width: 70%;
+        @include fontH1;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        color: $textGrey;
+        width: 70%;
+        margin-bottom: 60px;
+        @include fontH3;
+        font-weight: normal;
+        // @extend .golos-text-regular;
+    }
+}
+
+.item-block-grid {
+    display: grid;
+    grid-template: auto 1fr / auto 1fr auto;
+    gap: 2%;
+    // align-items: center;
+    // justify-items: center;
+
+    .item-block {
+        @include fontH3;
+        @include linkGrey;
+
+        .item {
+            background: $textGray;
+            border-radius: 16px;
+            padding: 24px;
+
+            p {
+                width: 90%;
+                margin-bottom: 30px;
+                margin-left: 20px;
+                font-size: 2rem;
+            }
+
+            .item-img {
+                mix-blend-mode: darken;
+            }
+        }
+    }
+}
