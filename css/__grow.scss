@@ -1,0 +1,47 @@
+@import "__variables";
+@import "__mixin";
+
+
+.grow-block {
+    margin: 0 40px 120px 40px;
+}
+
+.grow-grid {
+    display: grid;
+    grid-template: auto 1fr / auto auto auto;
+    gap: 40px 16px;
+    margin-top: 60px;
+}
+
+.title {
+    width: 70%;
+    @include fontH1;
+    margin-bottom: 20px;
+}
+
+.grow-item {
+    display: flex;
+    max-width: 389px;
+    align-items: flex-start;
+
+    .grow-img {
+        padding: 18px;
+        border: 1px solid $lineWhite;
+        border-radius: 8px;
+
+    }
+
+    .grow-text {
+        margin-left: 16px;
+
+        .text-title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .text-subtitle {
+            font-size: 1rem;
+        }
+    }
+}
